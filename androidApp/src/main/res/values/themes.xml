@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme for Splash Screen -->
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/green</item> <!-- Splash screen background color -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/whatsappicon</item> <!-- Icon for splash screen -->
+        <item name="postSplashScreenTheme">@style/Theme.MyApplication</item> <!-- Theme after splash screen -->
+    </style>
+
+    <!-- Main app theme -->
+    <style name="Theme.MyApplication" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
